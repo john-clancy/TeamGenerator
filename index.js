@@ -1,10 +1,10 @@
 //imports needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generatePage = require('./src/generatePage.js');
-const Manager = require('./lib/Manager.js');
-const Engineer = require('./lib/Engineer.js');
-const Intern = require('./lib/Intern.js');
+const generatePage = require('./src/htmlGeneration');
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
 
 //create array to store team data
 const teamDataArr = [];

@@ -1,0 +1,25 @@
+{
+  "name": "teamgenerator",
+  "version": "1.0.0",
+  "description": "Node.js file that creates a team builder page",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-clancy/TeamGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-clancy/TeamGenerator/issues"
+  },
+  "homepage": "https://github.com/john-clancy/TeamGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

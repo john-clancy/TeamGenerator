@@ -71,7 +71,6 @@ const generateCards = teamDataArr => {
     .join('')}
     `;
 };
-//fucntion to generate HTML for the page
 const generatePage = (data) => {
     return `
     <!DOCTYPE html>
